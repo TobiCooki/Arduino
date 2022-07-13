@@ -1,3 +1,4 @@
+//unsure you have Ncat for windows already installed on your attack pc otherwise this will obviously not work, other than that this script is mostly a plug and play
 //plug the digispark into target machine to initate hack, process is approximatly 9-10 minutes (because of install time)
 //this script opens a reverse shell by downloading and installing nmap and then executing the needed commands to connect to the attacking machine
 //NOTE the target machine must be logged in when usb is inserted and attacking machine must be turned on and listening to the correct port through the below command
@@ -5,7 +6,7 @@
 //this script works on windows 10 and 11 machines only
 //plug the digispark into target machine to initate hack, process is 8 minutes 40 seconds
 
-//NOTE!! due to dhcp your attacking machines ip address will every 24 hours so MAKE SURE THE IP ADRESS YOU INPUT IS UP TO DATE!!
+//NOTE!! due to dhcp your attacking machines ip address will every 24 hours so MAKE SURE THE IP ADDRESS YOU INPUT IS UP TO DATE!!
 
 //this is the command you need to type into command prompt of attacking machine
 //ncat -vlp PORT
